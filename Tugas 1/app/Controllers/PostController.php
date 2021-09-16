@@ -9,8 +9,8 @@ class PostController extends BaseController
 	public function index()
 	{
 		$data = [
-			'title' => "Blog - Posts",
-			'nama'	=> "Faishal Hariz"
+			'title' => "Posts",
+			'nama'	=> "Daud Maranatha Purba"
 		];
 		echo view('layouts/header',$data);
 		echo view('layouts/navbar');
